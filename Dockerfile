@@ -1,8 +1,7 @@
-FROM python:latest
+FROM jupyter/minimal-notebook
 
 RUN pip install \
       opencv-contrib-python \
-      jupyter \
       scipy \
       matplotlib \
       sympy \
